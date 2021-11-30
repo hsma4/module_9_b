@@ -1,6 +1,7 @@
-# Simple forecasting with Prophet
-# HSMA 2020
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/hsma4/module_9_b/HEAD)
 
+# Simple forecasting with Prophet
+## HSMA4
 -----
 
 **Welcome to the second in our series of HSMA forecasting classes**.  In this 3 hour class you will be introduced to forecasting applied to operational problems in health and social care.  We will make use of the forecasting package Prophet.
