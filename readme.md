@@ -33,47 +33,51 @@ You are provided with a conda environment (see environment_win.yml) that you can
 
 * `git clone https://github.com/hsma4/module_9_b.git`
 
-1. Open an anaconda prompt and navigate to the directory containing the course files.  Run the following command
+2. Open an anaconda prompt and navigate to the directory containing the course files.  Run the following command
 
    * `conda env create -f environment_win.yml`
 
-2. Conda will resolve the enviornment and ask if you wish to install it.  Answer 'y'. Installation will take several minutes.  It installs an environment called `hsma4_forecast9b_win`.  You need to activate it.
+3. Conda will resolve the enviornment and ask if you wish to install it.  Answer 'y'. Installation will take several minutes.  It installs an environment called `hsma4_forecast9b_win`.  You need to activate it.
 
    * `conda activate hsma4_forecast9b_win`
 
-3. To follow the code along lectures and complete the exercises please use Jupyter-Lab.  To run it enter the following command into your anaconda prompt (making sure you are in the same directory as the files)
+4. To follow the code along lectures and complete the exercises please use Jupyter-Lab.  To run it enter the following command into your anaconda prompt (making sure you are in the same directory as the files)
 
    * `jupyter-lab`
 
 Jupyter will then open.
 
 
-# Launch Notebooks in Google Colab
+# Description of materials.
 
-If you are experiencing issues with Jupyter-Lab on your personal computer then you can also run the notebooks in google colab.  Use the links below to launch them
+The module begins with a Prophet theory lecture.  This is deliver using slides that can be found in `slides\`
 
-## Code along lectures
-* Code along 1: Preprocessing data to Prophet format [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hsma-master/hsma/blob/master/12b_simple_forecasting/code_along_lectures/code_along_1_LIVE.ipynb)
+There are four notebooks in the module.  Each is split into a student version and a solution version.  The student notebooks require code to be entered (e.g. code along and exercises).  The solution notebooks contain example solutions and code.
 
-* Code along 2: Using a basic Prophet model for forecasting [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hsma-master/hsma/blob/master/12b_simple_forecasting/code_along_lectures/code_along_2_LIVE.ipynb)
+## Code along notebooks
 
-* Code along 3: Adding special events to the forecast [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hsma-master/hsma/blob/master/12b_simple_forecasting/code_along_lectures/code_along_3_LIVE.ipynb)
+The module provides three videos where you can code along with a tutor.  These can be found in the `code_along_lectures/` directory.  
 
+* Code along 1: Preprocessing data to Prophet format 
+You will first learn how to wrange time series data into a format suitable to pass to Prophet.  You will create a reusable function to help with future work.
 
-## Practical Exercises
+* Code along 2: Using a basic Prophet model for forecasting 
+You will learn how to fit a basic Prophet model, using the default settings, and produce point forecasts and prediction intervals.
 
-* Prophet Exercises: [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hsma-master/hsma/blob/master/12b_simple_forecasting/exercises/prophet_exercises.ipynb)
+* Code along 3: Adding special events to the forecast 
+Many health time series contain 'spikey' events where demand surges or drops each year.  You will learn how to use Prophet's built in holidays and add a manual date to a model.  You will also learn how to check if these holidays are important or not.
 
-## Solutions to Exercises
+## Practical exercises notebooks
+
+The exercise notebook can be found in `exercises\` directory.
+
+In the exercise notebook you will work with a different time series and put into practice the skills you have learnt in the code along lectures.
+
+The notebook also provides some **optional advanced exercises** where you can experiment with Prophet's built in cross-validation tools and compare results with a Naive benchmark method.
+
+## Solutions to exercises
 
 > These notebooks provide example solutions to the problems set.  Feel free to work through them.  We all learn in different ways. It is up to you how you choose to learn either by having a go at the exercises or by working through the code provided.  Remember you can always try the code with your own data!  Good luck.
 
-* Code along 1 (with SOLUTIONS): Preprocessing data to Prophet format [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hsma-master/hsma/blob/master/12b_simple_forecasting/code_along_lectures/code_along_1_SOLUTIONS.ipynb)
-
-* Code along 2 (with SOLUTIONS): Using a basic Prophet model for forecasting [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hsma-master/hsma/blob/master/12b_simple_forecasting/code_along_lectures/code_along_2_SOLUTIONS.ipynb)
-
-* Code along 3 (with SOLUTIONS): Adding special events to the forecast [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hsma-master/hsma/blob/master/12b_simple_forecasting/code_along_lectures/code_along_3_SOLUTIONS.ipynb)
-
-* Prophet Exercises (with SOLUTIONS): [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hsma-master/hsma/blob/master/12b_simple_forecasting/exercises/prophet_exercises_SOLUTIONS.ipynb)
 
 
