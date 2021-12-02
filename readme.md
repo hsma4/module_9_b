@@ -20,19 +20,28 @@
 * Hands on experience of manipulating time series in python
 * Hands on experience of producing simple forecasts using Prophet.
 
-## Setup for the course
+## Launch notebooks in Binder
 
-You are provided with a conda environment (see environment.yml) that you can use to install the dependencies.  To install follow these instructions.
+It is possible to run an interact with all of the notebooks in this course without installing anything on your own machine.  Click on the 'launch binder' badge to launch an instance of Jupyter Lab on MyBinder.  Note that all of the code is running in the 'cloud'.  To save any changes to a notebook you will need to go to File -> Download.
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/hsma4/module_9_b/HEAD)
 
-1. Open an anaconda prompt (or terminal on Mac and Linux) in the same directory as the course files.  Run the following command
+## Setup on Windows
 
-   * `conda env create -f environment.yml`
+You are provided with a conda environment (see environment_win.yml) that you can use to install the dependencies.  To install follow these instructions.
 
-2. Conda will resolve the enviornment and ask if you wish to install it.  Answer 'y'. Installation will take several minutes.  It installs an environment called `hsma_forecast`.  You need to activate it.
+1. Open git bash, navigate to the directory you wish to use and clone the repository.  The clone command is:
 
-   * `conda activate hsma_forecast2`
+* `git clone https://github.com/hsma4/module_9_b.git`
 
-3. To follow the code along lectures and complete the exercises please use Jupyter-Lab.  To run it enter the following command into your anaconda prompt or terminal (making sure you are in the same directory as the files)
+1. Open an anaconda prompt and navigate to the directory containing the course files.  Run the following command
+
+   * `conda env create -f environment_win.yml`
+
+2. Conda will resolve the enviornment and ask if you wish to install it.  Answer 'y'. Installation will take several minutes.  It installs an environment called `hsma4_forecast9b_win`.  You need to activate it.
+
+   * `conda activate hsma4_forecast9b_win`
+
+3. To follow the code along lectures and complete the exercises please use Jupyter-Lab.  To run it enter the following command into your anaconda prompt (making sure you are in the same directory as the files)
 
    * `jupyter-lab`
 
