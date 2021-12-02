@@ -34,7 +34,7 @@ It is possible to run an interact with all of the notebooks in this course witho
 
 If you wish to use your own machine then please set up in advance of the module. 
 
-> We have provided a video going through the instrutions below. https://www.youtube.com/watch?v=H4eopptC_Tw
+> [We have provided a video going through the instrutions below.](https://www.youtube.com/watch?v=H4eopptC_Tw)
 
 You are provided with a conda environment (see environment_win.yml) that you can use to install the dependencies.  To install follow these instructions.  
 
