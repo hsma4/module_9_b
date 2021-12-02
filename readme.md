@@ -6,11 +6,16 @@
 
 **Welcome to the second in our series of HSMA forecasting classes**.  In this 3 hour class you will be introduced to forecasting applied to operational problems in health and social care.  We will make use of the forecasting package Prophet.
 
-## Course structure
+## Module structure
 
-1. A lecture introducting the theory of forecasting with Prophet
+> The module lectures are delivered as a series of Youtube lectures. Links below.
+
+1. [A lecture introducting the theory of forecasting with Prophet](https://www.youtube.com/watch?v=tV2_iLr7lsc )
 2. A series of short code-along lectures in Jupyter notebooks
-3. A 45 minute practice exercise to give you experience of preprocessing data ready to use in prophet and a how to automatically fit prophet models
+   * [Preprocessing](https://www.youtube.com/watch?v=DXG9aIECtp4)
+   * [Fitting and predicting with a basic model](https://youtu.be/DTm6a13IiSg)
+   * [Adding holidays and special events](https://youtu.be/5MV1coh63oA)
+3. A 60 minute practice exercise to give you experience of preprocessing data ready to use in prophet and a how to automatically fit prophet models
 
 ## Learning outcomes
 
